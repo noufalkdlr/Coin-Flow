@@ -1,4 +1,4 @@
-import Coin from './pages/Home/Coin';
+import Coin from './pages/Coin';
 import Home from './pages/Home/Home';
 
 import { Route, Routes } from 'react-router-dom';
