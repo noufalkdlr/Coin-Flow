@@ -73,7 +73,7 @@ const Home = () => {
             </button>
           </form>
         </div>
-        <div className=" w-[96%] sm:w-[90%] md:w-[80%] xl:w-[60%] 2xl:w-[40%] Crypto-table bg-white text-neutral-900 rounded-md  mt-20 overflow-hidden">
+        <div className=" w-[90%] sm:w-[90%] md:w-[80%] xl:w-[60%] 2xl:w-[40%] Crypto-table bg-white text-neutral-900 rounded-md  mt-20 overflow-hidden">
           <div className="crypto-layout grid grid-cols-[0.5fr_2fr_1fr_.5fr] lg:grid-cols-[0.5fr_2fr_1fr_1fr_1fr] py-4 px-8 border-b border-neutral-200">
             <p>#</p>
             <p>Coins</p>

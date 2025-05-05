@@ -1,7 +1,10 @@
 const Footer = () =>{
     return(
-        <footer className="flex justify-center py-8 border-t border-neutral-500">
-            <p>Copyright @ 2025, Cryptoplace - All Right Reserved.</p>
+        <footer className="">
+            <div className="py-8 border-t border-neutral-500">
+                <p className="text-center">Copyright @ 2025, Cryptoplace - All Right Reserved.</p>
+            </div>
+            
         </footer>
     )
 };

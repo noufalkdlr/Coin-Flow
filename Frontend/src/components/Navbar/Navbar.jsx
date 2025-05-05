@@ -35,8 +35,8 @@ const Navbar = () => {
 
     return(
         <div className=" flex items-center justify-between py-6 px-[6%] text-[#ddd] border-b border-[#3c3c3c] ">
-            <Link to={'/'}><img src={logo} alt="" className="w-48 sm:w-52"/></Link>
-            <ul className='flex gap-10'>
+            <Link to={'/'}><img src={logo} alt="" className="min-w-48 sm:w-52"/></Link>
+            <ul className='gap-10 hidden lg:flex'>
                 <li className=' cursor-pointer ' ><Link to={'/'} >Home</Link></li>
                 <li className=' cursor-pointer '>Features</li>
                 <li className=' cursor-pointer '>Pricing</li>
@@ -48,7 +48,7 @@ const Navbar = () => {
                     <option value="eur" className='bg-[#0b5b80]'>EUR</option>
                     <option value="inr" className='bg-[#0b5b80]'>INR</option>
                 </select>
-                <button className='flex items-center gap-4 py-3 px-8 rounded-md text-lg text-[#393939] bg-white cursor-pointer '>Sign Up <img src={arrow_icon} alt="" /></button>
+                <button className='hidden lg:flex items-center gap-4 py-3 px-8 rounded-md text-lg text-[#393939] bg-white cursor-pointer '>Sign Up <img src={arrow_icon} alt="" /></button>
             </div>
         </div>
     )
