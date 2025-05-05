@@ -96,7 +96,7 @@ const Coin = () => {
               return (
                 <div
                   key={index}
-                  className=" w-1/3 mx-auto flex justify-between py-2 border-b border-neutral-400 "
+                  className=" w-[90%] lg:w-[60%] 2xl:w-1/3 mx-auto flex justify-between py-2 border-b border-neutral-400 "
                 >
                   <p>{detail.title}</p>
                   <p className="text-right">{detail.value}</p>
